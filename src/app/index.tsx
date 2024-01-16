@@ -2,7 +2,7 @@ import './index.scss'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       work
     </div>
   )
