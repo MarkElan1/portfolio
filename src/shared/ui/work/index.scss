@@ -1,0 +1,40 @@
+.work {
+  display: flex;
+  background-color: #1abc9c;
+  padding: 80px 35px;
+  border: 2px solid #fff;
+  justify-content: center;
+  flex-direction: column;
+  .head {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+
+    .title {
+      line-height: 130%;
+      flex-grow: 0;
+      color: #fff;
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+  .actions {
+  }
+  .versions {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    .text {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .icons {
+      display: flex;
+      padding-left: 10px;
+      .icon {
+        margin-right: 10px;
+      }
+    }
+  }
+}
