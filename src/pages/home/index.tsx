@@ -1,7 +1,9 @@
+import Intro from "widgets/intro";
+
 const Home = () => {
   return (
     <div className="Home">
-      Home
+      <Intro/>
     </div>
   )
 }
