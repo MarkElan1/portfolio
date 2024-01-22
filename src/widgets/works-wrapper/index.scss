@@ -1,0 +1,28 @@
+.WorksWrapper {
+  margin-left: 50%;
+  width: 50%;
+  padding-top: 50px;
+
+  .workds-head {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0px 0 25px;
+
+    .title {
+      line-height: 1.2;
+      font-weight: 700;
+      font-size: 40px;
+      color: #2f3542;
+      margin-right: 10px;
+      transition: .3 ease;
+    }
+    .sub-title {
+      color: #888;
+      font-size: 14px;
+      padding-bottom: 4px;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+  }
+}
