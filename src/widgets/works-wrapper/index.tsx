@@ -8,10 +8,10 @@ const WorksWrapper = () => {
         <span className="sub-title">Some of my latest projects</span>
       </div>
       <div className="temp">
-          <h1 className='title'>Coming soon</h1>
-        </div>
+        <h1 className="title">Coming soon</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default WorksWrapper;
